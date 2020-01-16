@@ -10,7 +10,7 @@ for more info regarding list comprehensions.
 
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
-y = []
+y = [1,2,3,4,5]
 
 print (y)
 
@@ -19,6 +19,8 @@ print (y)
 
 y = []
 
+
+y =[y**3 for y in range(10)]
 print(y)
 
 # Write a list comprehension to produce the uppercase version of all the
