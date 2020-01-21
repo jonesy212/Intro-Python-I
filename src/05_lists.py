@@ -18,6 +18,8 @@ print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
+# possible answer for a loop.. check
+# for multiple in x if multiple == 8:
 x.remove(8)
 print(x)
 
@@ -32,5 +34,12 @@ print (len(x))
 
 # Print all the values in x multiplied by 1000
 # YOUR CODE HERE
+
+# my answer
 multiplied = [multi * 1000 for multi in x]
 print(multiplied)
+
+# correct answer
+for num in x:
+    print(num*1000)
+print(x)

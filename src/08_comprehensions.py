@@ -28,16 +28,20 @@ print(y)
 
 a = ["foo", "bar", "baz"]
 
-y = []
-
+y = [word.upper() for word in a]
 print(y)
 
 # Use a list comprehension to create a list containing only the _even_ elements
 # the user entered into list x.
 
 x = input("Enter comma-separated numbers: ").split(',')
+z = input("Enter a different set of space-separated numbers: ").split(',')
 
 # What do you need between the square brackets to make it work?
-y = []
+y = [word for word in x if int(word) % 2 == 0]
+print(f"this is {x}")
+print(x)
+print(f"this is {z}")
+print(z)
+print(f"this is even numbers in {y}")
 
-print(y)

@@ -22,3 +22,30 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+# today = datetime.datetime.today() datem(today.year, today.month.1 )
+# datem = datetime.today().strftimes("Y-%m")
+# datem = datetime.strptime(datem, "Y-%m")
+
+
+year = input("Current year: ")
+month = input("Current month: ")
+
+currentDay = datetime.now().day
+currentMonth = datetime.now().month
+currentYear = datetime.now().year
+
+# currentCalendar = datetime.now().isocalendar
+
+if currentDay == "" and currentMonth == "" and currentYear == "":
+  print(int(datetime.now().day))
+  print(int(datetime.now().month))
+  print(int(datetime.now().year))
+else:
+  print(int(()))
+ 
+
+ today str (datetime.date.today()):
+
+ currentYear =int(today[:4])
+ currentMonth =int(today[5:7])
